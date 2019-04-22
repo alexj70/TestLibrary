@@ -1,0 +1,16 @@
+PODS:
+  - TestLibrarySDK (1.0.0)
+
+DEPENDENCIES:
+  - TestLibrarySDK (from `../TestLibrarySDK/`)
+
+EXTERNAL SOURCES:
+  TestLibrarySDK:
+    :path: "../TestLibrarySDK/"
+
+SPEC CHECKSUMS:
+  TestLibrarySDK: 1c7c3f467da2f94535e0555eb5716767a0480f82
+
+PODFILE CHECKSUM: df29487a208c990d0bfd38ed321a8540563d524a
+
+COCOAPODS: 1.5.3

@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FACDA52C226DB98500D374DC /* TestLibrarySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FACDA52A226DB98500D374DC /* TestLibrarySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FACDA554226DBD4400D374DC /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDA553226DBD4400D374DC /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FACDA527226DB98500D374DC /* TestLibrarySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestLibrarySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACDA52A226DB98500D374DC /* TestLibrarySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLibrarySDK.h; sourceTree = "<group>"; };
 		FACDA52B226DB98500D374DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACDA553226DBD4400D374DC /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +49,18 @@
 			isa = PBXGroup;
 			children = (
 				FACDA52A226DB98500D374DC /* TestLibrarySDK.h */,
+				FACDA552226DBD4400D374DC /* Classes */,
 				FACDA52B226DB98500D374DC /* Info.plist */,
 			);
 			path = TestLibrarySDK;
+			sourceTree = "<group>";
+		};
+		FACDA552226DBD4400D374DC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FACDA553226DBD4400D374DC /* Service.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +106,7 @@
 				TargetAttributes = {
 					FACDA526226DB98500D374DC = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -130,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FACDA554226DBD4400D374DC /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,7 @@
 		FACDA530226DB98500D374DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -277,6 +291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.ideasoft.TestLibrarySDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +300,7 @@
 		FACDA531226DB98500D374DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
