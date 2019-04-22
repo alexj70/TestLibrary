@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestLibrarySDK"
-  s.version      = "1.0.0"
+  s.version      = "1.0.3"
   s.summary      = "A short desc"
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ s.description  = "New test SDK instaled adfasdf asdf"
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/alexj70/TestLibrary.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/alexj70/TestLibrary.git", :tag => "1.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ s.description  = "New test SDK instaled adfasdf asdf"
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
 # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

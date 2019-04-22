@@ -1,5 +1,5 @@
 PODS:
-  - TestLibrarySDK (1.0.0)
+  - TestLibrarySDK (1.0.2)
 
 DEPENDENCIES:
   - TestLibrarySDK (from `../TestLibrarySDK/`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../TestLibrarySDK/"
 
 SPEC CHECKSUMS:
-  TestLibrarySDK: 1c7c3f467da2f94535e0555eb5716767a0480f82
+  TestLibrarySDK: 0ca3af9a05c5ed9278afbbc78e3ac9e05b311cc8
 
 PODFILE CHECKSUM: df29487a208c990d0bfd38ed321a8540563d524a
 
